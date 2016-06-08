@@ -23,7 +23,6 @@ var events = (function(){
 
     publish: function(topic, info){
 
-      if(!topics.hasOwnProperty(topic)) return;
       if(!hOP.call(topics, topic)) return;
 
       topics[topic].forEach( function( listener ) {
