@@ -1,6 +1,11 @@
 /**
  * Created by Ricardo Trujillo on 07/06/2014.
  */
+
+/**
+ * Module definition
+ * @type {{subscribe, publish}}
+ */
 var events = (function(){
   var topics = {}
       hOP = topics.hasOwnProperty;
@@ -34,6 +39,10 @@ var events = (function(){
 
 }());
 
+
+/**
+ * Module use
+ */
 events.publish('topic1', 'info for topic1');
 events.publish('topic2', 'info for topic2');
 events.publish('topic2', 'another info for topic2 ');
