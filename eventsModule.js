@@ -1,5 +1,5 @@
 /**
- * Created by Consultant on 07/06/2016.
+ * Created by Ricardo Trujillo on 07/06/2014.
  */
 var events = (function(){
   var topics = {}
