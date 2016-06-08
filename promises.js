@@ -1,7 +1,6 @@
 // Overview of promises
 
 function asyncFunc( number ) {
-    var that = this;
     return new Promise(
         function ( resolve, reject) {
              if(number === 1){
